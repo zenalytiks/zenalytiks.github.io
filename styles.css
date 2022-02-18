@@ -236,6 +236,12 @@ main {
   text-transform: uppercase;
 }
 
+.section__subtitle {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
 .nav__list {
   margin-right: 1.5em;
   display: flex;
