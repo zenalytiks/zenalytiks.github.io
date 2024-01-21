@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MW24FDL01"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-4MW24FDL01');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Zenalytiks | Portfolio</title>
+    <meta name="title" content="Zenalytiks | Portfolio">
+    <meta name="description" content="A freelance service provider, providing data apps and custom dashboard development services, utilizing the power of python frameworks like Plotly Dash, Flask and Django.">
+    <meta name="keywords" content="Python, Plotly Dash, Flask, Dashboards, Data Apps, Data Visualization, Graphs, Charts, Custom Dashboard Development, Geographic Information System, GIS mapping, Geospatial analysis, Web App Development">
+    <meta name="author" content="Waleed Malik">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zenalytiks.com/">
+    <meta property="og:title" content="Zenalytiks | Portfolio">
+    <meta property="og:description" content="A freelance service provider, providing data apps and custom dashboard development services, utilizing the power of python frameworks like Plotly Dash, Flask and Django.">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/31138706/219881261-c927355a-ea7d-4736-8c6e-8cb5b282a162.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zenalytiks.com/">
+    <meta property="twitter:title" content="Zenalytiks | Portfolio">
+    <meta property="twitter:description" content="A freelance service provider, providing data apps and custom dashboard development services, utilizing the power of python frameworks like Plotly Dash, Flask and Django.">
+    <meta property="twitter:image" content="https://user-images.githubusercontent.com/31138706/219881261-c927355a-ea7d-4736-8c6e-8cb5b282a162.png">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://www.zenalytiks.com/">
+          <img
+                  class="img-logo"
+                  src="dark-logo.png"
+                  alt="logo"
+          />
+       </a>
+      </h3>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item project-link">
+            <a class="link link--nav" href="#projects">Projects</a>
+            <ul class="hover-menu">
+              <li class="nav__list-item"><a href="#graphs-and-charts">Graphs and Charts</a></li>
+              <li class="nav__list-item"><a href="#web-apps-and-dashboards">Web Apps and Dashboards</a></li>
+            </ul>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#hireme">Hire Me</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Waleed Malik.</span></h1>
+        <h2 class="about__role">A Python Developer.</h2>
+        <p class="about__desc">
+          I'm a Software Engineering graduate who's been working full-time as a freelancer. I specialize in developing web-based data apps and dashboards. My brainchild, Zenalytiks, incorporates the principles of "Zen"🧘 and "Analytics"📈 to convey the concept of attaining clarity and mindfulness through the utilization of data analytics.
+        </p>
+
+        <div class="about__contact center">
+          <!-- <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a> -->
+
+          <a
+            href="https://github.com/zenalytiks"
+            aria-label="github"
+            target="_blank"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/waleed-malik-570a8b179/"
+            aria-label="linkedin"
+            target="_blank"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <section id="graphs-and-charts">
+        <h3 class="section__subtitle">Graphs and Charts</h3>
+
+        <div class="projects__grid">
+
+          <div class="project">
+            <h3>Facebook Stocks</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51884232950_a3d64c6849.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A Plotly subplot showing stock prices, total volume and volume-weighted average price for different time frames.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/stocks-candlestick-graph-plotly"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/stocks-candlestick-graph-plotly/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          
+          <div class="project">
+            <h3>Aurora Forecast</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52743140300_5bbdce1b96_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A Plotly scattergeo map showing a short-term <a class="ref-link" href="https://www.swpc.noaa.gov/products/aurora-30-minute-forecast">forecast data</a> of the location and intensity of the aurora over Northern and Southern Hemisphere.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Plotly.js</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/aurora-forecast"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/aurora-forecast/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+
+          <div class="project">
+            <h3>Stocks Treemap</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51888813657_115b125452.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A Treemap showing stocks along with some conditional color formatting based on their Put and Call values.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/stocks-treemap"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/stocks-treemap/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Crimes in Chicago</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51898199002_b0a5535efe.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A simple stacked bar chart showing top 10 crimes in Chicago over the year.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Highcharts.js</li>
+              <li class="project__stack-item">Danfo.js</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/stacked-bar-chicago-crime"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/stacked-bar-chicago-crime/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Stocks Trading</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51901863199_41f2361b75.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A simple Plotly Table showing stocks trading data with some conditional formatting.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/stocks-trading-plotly-table"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/stocks-trading-plotly-table/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Average Mood</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51888813692_6feeaa75ac.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A simple d3 style gauge chart made with plotly.js.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Plotly.js</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/average-mode-gauge"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zenalytiks.github.io/average-mode-gauge/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section id="web-apps-and-dashboards">
+
+        <h3 class="section__subtitle">Web Apps and Dashboards</h3>
+        <div class="projects__grid">
+
+          <div class="project">
+            <h3>Thermoplan Product Enviormental Report</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/53118891158_d763aa33af_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A Product environment report developed for <a class="ref-link" href="https://report.thermoplan.ch/">Thermoplan - Swiss Coffee Machine Company</a>, which is 
+              essentially a web app that exhibits the analysis of carbon footprint
+              associated with the production of their coffee machines.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com/zenalytiks/uk-covid19-dashboard"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video10')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video10" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video10')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/845706258?h=a6834bdea5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>SB Investment Advisers Dashboard</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52744753776_e1c3bb57cd_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A web-based dashboard developed for performing a case study on <a class="ref-link" href="https://visionfund.com/">Softbank Investment Advisers</a>, designed to provide comprehensive insight into their investment activities, share holdings, and portfolio.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">Echarts</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com/zenalytiks/ireland-accommodations-mapbox"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video8')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video8" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video8')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/807514694?h=753f1e1e90" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Bitcoin Transaction Network</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52733254393_ff2f8c9d78_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              This is a web app that displays Bitcoin transaction data using data tables and network graphs, with a search bar feature to retrieve summaries for specific hash values.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">NetworkX</li>
+            </ul>
+
+            <!-- <a
+              href=""
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video7')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video7" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video7')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/740018966?h=ab2e3a0ffe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Nimble Alpha Web App</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/53049972911_64e3865ec4_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A web app developed for <a class="ref-link" href="https://nimblealpha.com/">Nimble Alpha</a>, which 
+              provides financial consultancy focused on the design and delivery of quantitative market guidance to institutional investors.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com/zenalytiks/uk-covid19-dashboard"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video11')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video11" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video11')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/845708708?h=1907ac6974" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Vaccine Distribution Dashboard</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52745745635_291e5469cd_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A web-based dashboard to perform preliminary baseline analysis of vaccine distribution in Niger Republique.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">Highcharts</li>
+            </ul>
+
+            <!-- <a
+              href="https://github.com/zenalytiks/ireland-accommodations-mapbox"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video9')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video9" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video9')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/806904279?h=c5ab50e1e3" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>US Covid-19 Data Tracker</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51884232905_45db2c95dc.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              An overview of Covid-19 spread and vaccination progress in US at both State and County Level.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">Mapbox</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/us-covid19-data-tracker"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <button
+              class="link link--icon"
+              onclick="openModal('video3')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video3" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video3')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/651724899?h=33f53f0e98" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="project">
+            <h3>Arabic Tweet Sentiment Dashboard</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52042423603_255a8dcf5f.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A web-based dashboard to perform visual analysis of Arabic tweets sentiment.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/arab-tweet-sentiment-dashboard"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <button
+              class="link link--icon"
+              onclick="openModal('video4')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video4" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video4')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/740025938?h=6aeff4edee" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>UK Covid-19 Dashboard</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51883584736_b727aa0466.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A dashboard built with Plotly Dash representing the overall situation of Covid-19 in the UK.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/uk-covid19-dashboard"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <button
+              class="link link--icon"
+              onclick="openModal('video1')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video1" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video1')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/740019078?h=fe1ac4a460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+
+          
+
+          <div class="project">
+            <h3>Wrist Wearable Data Monitor</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51953108097_2fffab284f.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A small web app which shows that how wrist wearable data such as heart rate, moods and emotions can be visualized.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/wrist-wearables-data-monitor"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <button
+              class="link link--icon"
+              onclick="openModal('video2')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video2" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video2')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/740023601?h=add3c16d38" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="project">
+            <h3>Exploring Irish Accommodations</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/51883878828_de8d042a96.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A small GIS web app for exploring and filtering different kinds of accommodations in Ireland, based on their ratings and region.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">Mapbox</li>
+            </ul>
+
+            <a
+              href="https://github.com/zenalytiks/ireland-accommodations-mapbox"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <button
+              class="link link--icon"
+              onclick="openModal('video5')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video5" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video5')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/594167144?h=10e296937e" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+          
+
+
+          
+
+          <div class="project">
+            <h3>Movie Recommender System</h3>
+            <img
+                  class="img-fluid"
+                  src="https://live.staticflickr.com/65535/52699155233_b797b34778_k.jpg"
+                  alt="plot"
+            />
+            <p class="project__description">
+              A movie recommender system that scrapes the top 1000 movies data from <a class="ref-link" href="https://www.imdb.com/search/title/?groups=top_1000&sort=user_rating,desc&start=0&ref_=adv_nxt%22)">IMDB</a> and implements cosine similarity as a measure to provide recommendations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Plotly-Dash</li>
+              <li class="project__stack-item">Selenium</li>
+              <li class="project__stack-item">Scikit-Learn</li>
+            </ul>
+
+            <!-- <a
+              href=""
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <button
+              class="link link--icon"
+              onclick="openModal('video6')"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </button>
+            
+          </div>
+          <div id="modal-video6" class="modal">
+            <div class="modal-content">
+              <span class="modal-close" onclick="closeModal('video6')">&times;</span>
+              <div class="modal-video">
+                <iframe src="https://player.vimeo.com/video/800335777?h=d0b1d37262" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+        </div>
+      </section>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Flask</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">SQLite</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain"><a href="https://firebase.google.com/">Firebase</a></li>
+          
+          <li class="skills__list-item btn btn--plain"><a href="https://dash.plotly.com/">Plotly Dash</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://echarts.apache.org/en/index.html">ECharts</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://www.highcharts.com/">Highcharts.js</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://www.chartjs.org/">Chart.js</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://nvd3.org/">NVD3</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://vega.github.io/vega-lite/">Vega-Lite</a></li>
+          <li class="skills__list-item btn btn--plain">Seaborn</li>
+          <li class="skills__list-item btn btn--plain">Bokeh</li>
+          <li class="skills__list-item btn btn--plain"><a href="https://deck.gl/">Pydeck</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://www.mapbox.com/">Mapbox</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://leafletjs.com/">Leaflet</a></li>
+          <li class="skills__list-item btn btn--plain">Google Maps</li>
+          
+        </ul>
+      </section>
+
+      <!-- Hire Me -->
+      <section class="section contact center" id="hireme">
+        <h2 class="section__title">Hire Me</h2>
+        <div id="pph-hireme"></div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:waleed@zenalytiks.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+
+      
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://www.zenalytiks.com/"
+        class="link footer__link"
+      >
+      &copy; 2024 Zenalytiks 
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
