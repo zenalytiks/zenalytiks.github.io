@@ -126,6 +126,19 @@ $(document).ready(function(){
 	});
 });
 
+function toggleProjectsGrid(sectionId) {
+	var projectsGrid = document.querySelector(`#${sectionId} .projects__grid`);
+	var arrow = document.querySelector(`#arrow-${sectionId}`);
+	
+	if (window.getComputedStyle(projectsGrid).display === 'none') {
+	  projectsGrid.style.display = 'grid';
+	  arrow.innerHTML = '▲'; // Up arrow
+	} else {
+	  projectsGrid.style.display = 'none';
+	  arrow.innerHTML = '▼'; // Down arrow
+	}
+  }
+
 // PPH Freelancer Profile Link
 (function(d, s) {
 	var useSSL = 'https:' == document.location.protocol;
