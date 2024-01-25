@@ -309,6 +309,8 @@ main {
   margin-right: 1em;
 }
 
+/* Meet the team */
+
 * {
   font-family: Nunito, sans-serif;
 }
@@ -398,7 +400,7 @@ main {
 .name {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(102, 102, 102);
+  color: var(--clr-fg-alt);
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 5px;
@@ -408,7 +410,7 @@ main {
 .position {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(0, 135, 177);
+  color: var(--clr-primary);
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 50px;
@@ -433,6 +435,71 @@ main {
   .section-head-text {
     text-align: center;
   }
+}
+
+/* Our Services */
+
+.serviceBox{
+  font-family: 'Poppins', sans-serif;
+  padding: 25px;
+  margin: 5px 0 0 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -5px rgba(0,0,0,0.3);
+  transition: all 0.3s ease 0s;
+}
+.serviceBox:hover{ background: #FB374D; }
+.serviceBox .service-icon{
+  color: #FB374D;
+  font-size: 55px;
+  margin: 0 0 20px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox .title{
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox .description{
+  color: #999;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 0 0 15px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox .read-more{
+  color: #FB374D;
+  font-size: 15px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox .read-more:hover{ text-shadow: 4px 4px rgba(255,255,255,0.3); }
+.serviceBox.cyan .service-icon,
+.serviceBox.cyan .read-more{
+  color: #36ADB3;
+}
+.serviceBox.cyan:hover{ background: #36ADB3; }
+.serviceBox.blue .service-icon,
+.serviceBox.blue .read-more{
+  color: #172E5A;
+}
+.serviceBox.blue:hover{ background: #172E5A; }
+.serviceBox.orange .service-icon,
+.serviceBox.orange .read-more{
+  color: #F05D0D;
+}
+.serviceBox.orange:hover{ background: #F05D0D; }
+.serviceBox:hover .service-icon,
+.serviceBox:hover .title,
+.serviceBox:hover .read-more{
+  color: #fff;
+}
+.serviceBox:hover .description{ color: rgba(255,255,255,0.8); }
+@media only screen and (max-width: 990px){
+  .serviceBox{ margin: 0 0 30px; }
 }
 
 .projects__grid {
