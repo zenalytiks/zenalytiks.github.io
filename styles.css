@@ -403,7 +403,7 @@ main {
 .social-media-links {
   width: 125px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .name {
@@ -449,10 +449,10 @@ main {
 /* Our Services */
 
 .serviceBox{
-  font-family: 'Poppins', sans-serif;
   padding: 25px;
-  margin: 5px 0 0 5px;
+  margin: 5px 0 15px 5px;
   border-radius: 10px;
+  backdrop-filter: blur(20px);
   box-shadow: var(--shadow);
   /* transition: all 0.3s ease 0s; */
 }
@@ -509,14 +509,6 @@ main {
 .serviceBox:hover .description{ color: rgba(255,255,255,0.8); }
 @media only screen and (max-width: 990px){
   .serviceBox{ margin: 0 0 30px; }
-}
-
-.projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
 }
 
 /* Contact Us */
@@ -795,6 +787,14 @@ textarea.input100 {
       visibility:visible;
       opacity: 1
   }
+}
+
+.projects__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
 }
 
 
